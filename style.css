@@ -33,3 +33,33 @@ p.b{
   table{margin:2px;margin-left: 1px;}
   h2{color: cadetblue;letter-spacing: 8px; font-weight: 200 ; word-spacing: 12px;}
   i.b{color:dimgray;font-size: larger;}
+
+@media (min-width: 768px) {
+    img {
+        float: right;
+        width: 50%;
+        height: auto;
+    }
+
+    nav ul li {
+        display: inline;
+    }
+}
+
+/* Responsive table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
